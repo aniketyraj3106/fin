@@ -18,7 +18,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <FinanceProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/fin/">
           <Routes>
             <Route element={<AppLayout />}>
               <Route path="/" element={<Index />} />
